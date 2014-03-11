@@ -1,0 +1,7 @@
+{
+	"name": "assets",
+	"dependencies": {
+		"jquery": "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js",
+		"modernizr": "http://cdnjs.cloudflare.com/ajax/libs/augment.js/1.0.0/augment.min.js"
+	}
+}

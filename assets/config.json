@@ -1,0 +1,40 @@
+{
+
+	"dist": "dist",
+	"src": "src",
+	"tmp": "tmp",
+
+	"less": {
+		"src": "<%= options.src %>/less",
+		"dist": "<%= options.css.src %>/styles.css",
+		"file": "<%= options.less.src %>/styles.less"
+	},
+
+	"css": {
+		"src": "<%= options.src %>/css",
+		"dist": "<%= options.dist %>/css",
+		"files": "<%= options.css.src %>/**/*.css",
+		"concat": "<%= options.tmp %>/concat.css",
+		"min": "<%= options.css.dist %>/app.min.css",
+		"legacssy": "<%= options.css.dist %>/app.ie.css"
+	},
+
+	"js": {
+		"src": "<%= options.src %>/js",
+		"vendor": "<%= options.js.src %>/vendor",
+		"files": [
+			"<%= options.js.vendor %>/jquery/index.js",
+			"<%= options.js.vendor %>/modernizr/index.js",
+			"<%= options.js.src %>/app.js"
+		],
+		"dist": "<%= options.dist %>/js"
+	},
+
+	"svg": {
+		"src": "<%= options.src %>/img/svg",
+		"dist": "<%= options.dist %>/img/sprites",
+		"files": "<%= options.svg.src %>/**/*.svg",
+		"css": "<%= options.css.src %>"
+	}
+
+}

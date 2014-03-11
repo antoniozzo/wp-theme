@@ -1,0 +1,15 @@
+{
+	"name": "grunt",
+	"version": "1.0.0",
+	"private": true,
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-legacssy": "*",
+		"grunt-contrib-uglify": "*",
+		"dr-grunt-svg-sprites": "*",
+		"grunt-contrib-watch": "*"
+	}
+}
