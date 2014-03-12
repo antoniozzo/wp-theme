@@ -1,3 +1,4 @@
-# Basic WP Template
+My basic WP template for starting themes
 
-A simple Wordpress template for speeding up theme development. This template is based on OWC Bootstrap.
+Thanks goes to the following reference:
+- [Maeertin - MPWP](https://github.com/maeertin/mbwp)
